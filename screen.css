@@ -2,3 +2,20 @@
 a.active {
     font-weight: bold;
 }
+
+#example1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+#example1 li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    cursor: grab;
+}
+
+/* Styling for the dragging element */
+.blue-background-class {
+    background-color: lightblue;

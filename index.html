@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="screen.css">
+    <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <h1>Rank the following pizza toppings from your favorite to least favorite (the first = the best)</h1>
+    <!-- the id is linked in the .js file -->
+    <ul id="example1">
+        <li>Pepperoni</li>
+        <li>Pineapple</li>
+        <li>Mushroom</li>
+        <li>Red Onion</li>
+        <li>Sausage</li>
+    </ul>
     <script src="index.js"></script>
   </body>
 </html>
